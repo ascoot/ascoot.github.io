@@ -1,0 +1,223 @@
+
+.delay1{
+	-webkit-animation-delay: 0.5s; /* Safari and Chrome */
+	animation-delay: 0.5s;
+}
+.delay2{
+	-webkit-animation-delay: 1.0s; /* Safari and Chrome */
+	animation-delay: 1.0s;
+}
+.delay3{
+	-webkit-animation-delay: 1.5s; /* Safari and Chrome */
+	animation-delay: 1.5s;
+}
+.delay4{
+	-webkit-animation-delay: 2.0s; /* Safari and Chrome */
+	animation-delay: 2.0s;
+}
+.delay5{
+	-webkit-animation-delay: 2.5s; /* Safari and Chrome */
+	animation-delay: 2.5s;
+}
+.delay6{
+	-webkit-animation-delay: 3.0s; /* Safari and Chrome */
+	animation-delay: 3.0s;
+}
+.delay7{
+	-webkit-animation-delay: 3.5s; /* Safari and Chrome */
+	animation-delay: 3.5s;
+}
+.delay8{
+	-webkit-animation-delay: 4.0s; /* Safari and Chrome */
+	animation-delay: 4.0s;
+}
+
+.container_ {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+ 
+}
+@media (min-width: 992px) {
+  
+}
+@media (min-width: 1200px) {
+  .container_ {
+    width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 2500px){
+	.container{width:1170px;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+
+	/* S0 SECTION */
+	.logotype_font_big h1{
+		font-size:56px !important;
+		line-height:56px !important;
+	}
+	
+	/* S-3 SECTION */
+	#s-3 .workers_container .worker_box{
+		margin-bottom:25px !important;
+	}
+	
+	/* S-4 SECTION */
+	
+	#s-4 .rules_container .rules .text{
+		padding-left:15px !important;
+	}
+	
+	/* FOOTER */
+	.social_col_footer a{
+		padding:25px 15px 25px 15px !important;
+	}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	
+	/* S0 SECTION */
+	.logotype_font_big h1{
+		font-size:56px !important;
+		line-height:62px !important;
+	}
+	
+	
+	/* S-1 SECTION */
+	#s-1 .icon_box_container .icon_box .desc{
+		text-align:center !important;
+		padding-top:10px;
+	}
+	
+	/* s-3 SECTION */
+	#s-3 .workers_container .worker_box .author_desc{
+		padding-left:185px;
+		padding-right:185px;
+	}
+	
+	/* S-4 SECTION */
+	#s-4 .rules_container .rules .text{
+		padding-top:10px;
+		text-align:center !important;
+	}
+	
+	/* S-5 SECTION */
+	
+	#s-5 .icons_container .icon{
+		margin-bottom:25px;
+	}
+	
+	/* CONTACT */
+	.s6-col-md-left{padding:0px 0px 0px 0px !important;}
+	.s6-col-md-right{padding:0px 0px 0px 0px !important;}
+	.s6-col-contact{padding:60px 15px 95px 15px !important;}
+	
+	
+	
+	/* FOOTER */
+	.social_col_footer a{
+		
+		padding:25px 15px 25px 15px !important;
+	}
+	.social_col_footer a i{
+		font-size:18px !important;
+	}
+	.social_col_footer a span{
+		display:none !important;	
+	}
+	
+}
+@media screen and (min-width: 768px) and (max-width: 900px){
+	
+	/* s-3 SECTION */
+	#s-3 .workers_container .worker_box .author_desc{
+		padding-left:115px;
+		padding-right:115px;
+	}
+	
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+	
+	/* NAVBAR HEADER */
+	.navbar-toggle{
+		margin-right:30px !important;
+	}
+	
+	
+	/* S0 SECTION */
+	.logotype_font_big h1{
+		font-size:42px !important;
+		line-height:48px !important;
+	}
+	
+	/* S-1 SECTION */
+	#s-1 .icon_box_container .icon_box .desc{
+		text-align:center !important;
+		padding-top:10px;
+	}
+	
+	/* s-3 SECTION */
+	#s-3 .workers_container .worker_box{
+		padding:-left:15px!important;
+		padding:-left:15px!important;
+	}
+	#s-3 .workers_container .worker_box .author_desc{
+		
+	}
+	#s-3-1 .title_box .title{
+		font-size:34px !important;
+	}
+	#s-3 .workers_container .worker_box{
+		margin-bottom:0px !important;
+	}
+	
+	/* S-4 SECTION */
+	#s-4 .rules_container .rules .text{
+		padding-top:10px;
+		text-align:center !important;
+	}
+	
+	/* S-5 SECTION */
+	
+	#s-5 .icons_container .icon{
+		margin-bottom:25px;
+	}
+	
+	/* CONTACT */
+	.s6-col-md-left{padding:0px 0px 0px 0px !important;}
+	.s6-col-md-right{padding:0px 0px 0px 0px !important;}
+	.s6-col-contact{padding:60px 5px 95px 5px !important;}
+	
+	
+	
+	/* FOOTER */
+	.social_col_footer a{
+		
+		padding:25px 0px 25px 0px !important;
+	}
+	.social_col_footer a i{
+		font-size:16px !important;
+	}
+	.social_col_footer a span{
+		display:none !important;	
+	}
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 599px){
+	
+}
+
+
+
+

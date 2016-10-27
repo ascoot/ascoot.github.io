@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Agency And Developers Landing Page</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Agency And Developers Landing Page&rdquo; Documentation by &ldquo;wordica&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Agency And Developers Landing Page&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 07/01/2016<br>
+					By: Wordica<br>
+					Email: <a href="mailto:info@wordica.net">info@wordica.net</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form or email. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This theme is a full width responsive layout build on Bootstrap 3.3.6. All HTML sections are commented like on picture below. If You want to change some sections, check comment and find behavior in style.css,media.css,navbar.css for that section and div</p>
+		
+		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+		
+		<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+
+<pre>	s3-title {
+		color: #someColor;
+	} 
+</pre>
+
+		<p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+
+		<br><br>
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		<ol>
+			<li> style.css - all styles for page </li>
+			<li> owl* - styles for owl carousel plugin <a href='https://github.com/OwlFonk/OwlCarousel'>https://github.com/OwlFonk/OwlCarousel</a></li>
+			<li> media.css - styles for media query (responsive behavior) </li>
+			<li> navbar.css - elements for top navbar </li>
+			<li> navbar.css - elements for hovers effects </li>
+			<li> colorbox.css - css for colorbox plugin for image popup in section with products <a href='http://www.jacklmoore.com/colorbox/'>http://www.jacklmoore.com/colorbox/</a></li>
+			<li> animate.css - animations for some elements <a href='http://daneden.github.io/animate.css/'>http://daneden.github.io/animate.css/</a></li> <b>( use by adding class='animated fadeIn' or some else class from link. Class delay1,2,3,4,5,6 are in media.css and are responsive for how long animation should wait after page load )</b>
+		</ol>
+			<br>
+			
+		<p>I'm using few CSS files in this theme. The main one is <b>style.css and navbar.css and media.css ( responsive )</b> where are set all behavior for template. Rest of css files are responsible for added plugins behavior.</p> 
+
+		<p>Structure of style.css is very similar to HTML file and is commented like:</p>  
+
+<pre><code>	/* ===  SECTION A === */
+
+	some code
+
+	/* === SECTION B === */
+	
+	some code
+	
+	/* === SECTION C === */
+	
+	some code
+	
+	/* === TITLES BOOTSTRAP === */
+	
+	some code
+	
+	etc, etc.
+	
+	FOR EXAMPLE YOU HAVE CODE IN MASONRY LAYOUT AND SOME OF THEM HAVE 'see it online button' and some not
+	
+	THIS IS CODE WITHOUT BUTTON:
+	 
+</pre></code>
+	<img src='assets/images/code1.png'>
+		
+<pre><code>
+	And here You have code with 'see it online button'. 
+	So Just add predefined class for 'item_desc' class and button will be visible 
+	- then of course set href to redired to you work.
+	
+</pre></code>
+<img src='assets/images/code2.png'>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<h2>MAILS AND PHONE SUBMIT </h2>
+		
+		<ul>
+			<li><strong>Contact form</strong> is very simple PHP contact form that use defaut settings of Your server/hosting and try to send file by it. When You open file "mails.php" You will find line like this <b>" $to = 'seo_poczta@wp.pl'; "</b> it is adress to which emails from contact form will be sended to - please put there Your own email adress.</li>
+			<li><strong>Phone submit</strong> is very simple PHP contact form that use PHP script to write number to "formdata.txt" file on Your server. If You want to change file name ( recomended ) create new TXT file, give it permission CHMOD to 777 and go to submit_phone.php where You will change default file name where numbers will be written.</li>
+			<li><strong>Newsletter submit</strong> is very simple PHP contact form that use PHP script to write number to "formnewsletter.txt" file on Your server. If You want to change file name ( recomended ) create new TXT file, give it permission CHMOD to 777 and go to submit_newsletter.php where You will change default file name where numbers will be written.</li>
+		</ul>
+		
+		
+		
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme have one mail.js file. Every plugins used in this theme is initialized in here.</p>
+		
+		<ol>
+			<li>main.js</li>
+		</ol>
+		 
+		<p> Main.js is commented so check it to know how it works - every plugin have comment with link to author page with full documentation </p>
+		
+		<hr>
+		
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li> IMAGES on site are free images for commercial use from - <a href='https://unsplash.com/'>https://unsplash.com/</a></li>
+			<li> ANIMATE.css - css animations <a href='http://daneden.github.io/animate.css/'>http://daneden.github.io/animate.css/</a></li>
+			<li> NOTY plugin - plugin for notifications <a href='http://ned.im/noty/'>http://ned.im/noty/</a></li>
+			<li> VALIDATE plugin  <a href='https://github.com/chriso/validator.js'>https://github.com/chriso/validator.js</a></li>
+			<li> OWL CAROUSEL - styles for OWL jquery plugin <a href='http://owlgraphic.com/owlcarousel/'>http://owlgraphic.com/owlcarousel/</a></li>
+			<li> ONE PAGE NAV plugin - plugin for scroll smooth to sections when click on section in top menu - <a href='http://github.com/davist11/jQuery-One-Page-Nav'>http://github.com/davist11/jQuery-One-Page-Nav</a></li>
+			<li> COLORBOX plugin for images preview in portfolio <a href='http://www.jacklmoore.com/colorbox/'>http://www.jacklmoore.com/colorbox/</a></li>
+			<li> MOCKUPS - included 1 free mockups ( iphone image ) <a href='http://p-px.com/iPhone-6-Plus-3-4viewsPSD/'>http://p-px.com/iPhone-6-Plus-3-4viewsPSD/</a></li>
+			<li> LOGOTYPE - freepik.com <a href='http://www.freepik.com/free-vector/abstract-logo-made-with-colorful-swirls_822217.htm'>Designed by Freepik</a></li>
+		    <li> COLORBOX plugin for images preview in portfolio <a href='http://www.jacklmoore.com/colorbox/'>http://www.jacklmoore.com/colorbox/</a></li>
+			<li> CHARTS.JS plugin for jquery chart canvas <a href='http://www.chartjs.org/'>http://www.chartjs.org/</a></li>
+			<li> PARTICLE BACKGROUND EFFECT - in V2 version top page <a href='https://github.com/jnicol/particleground'>https://github.com/jnicol/particleground</a></li>
+			<li> VIDEOS - are free to use for commercial purpose <a href='http://www.videvo.net/video/working-on-laptop-2/3518'>http://www.videvo.net/video/working-on-laptop-2/3518</a></li>
+			<li> IMAGES IN PORTFOLIO - free for commercial use from <a ahref='http://freebiesbug.com/'>http://freebiesbug.com/</a></li>
+		</ul>
+		
+
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>Michal Duliba</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
