@@ -1337,4 +1337,10 @@ input:focus{box-shadow:none;outline:0;}
 	top: 19px; left: -21px;
 }
 
+.emailUs {
+	text-decoration: none;
+	color: white;
+	text-transform: lowercase;
+}
+
 
