@@ -787,8 +787,18 @@ input:focus{box-shadow:none;outline:0;}
 /*------------------------------------------*/
 
 #s-5{
-	padding-bottom:80px;
-	border-bottom:1px solid #e5e5e5;
+	position:relative;
+	padding:0;
+	width:100%;
+	min-height:710px;
+	padding-bottom:65px;
+	background-image:url('../images/office_background.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 #s-5 .title_box{
