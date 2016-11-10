@@ -304,6 +304,7 @@ input:focus{box-shadow:none;outline:0;}
 	text-transform:uppercase;
 	color:#202740;
 	padding:21px 15px 0px 15px;
+	border-top:1px solid #00bcd4;
 	border-left:1px solid #f1f1f1;
 	border-right:1px solid #f1f1f1;
 }
@@ -331,7 +332,6 @@ input:focus{box-shadow:none;outline:0;}
 	text-transform:none;
 	color:#202740;
 	padding:0px 15px 25px 15px;
-	border-top:1px solid #00bcd4;
 	border-left:1px solid #f1f1f1;
 	border-right:1px solid #f1f1f1;
 	border-bottom:1px solid #f1f1f1;
