@@ -272,45 +272,45 @@
                 <p class="heading__sub">
                 Use templating to get build consistency across your estate, and utilise tools like chef to gain immutability.
                 </p>
-                <p class="heading__sub">
+                <p>
                 Snowflake builds cause innumerable problems at enterprise level.  Differing OS and patch levels with varying versions of hosted applications lead to subtle changes in each of the machines making each a unique and individual snowflake.
                 </p>
-                <p class="heading__sub">
+                <p>
                 Why do we care?
                 </p>
-                <p class="heading__sub">
+                
                   <ul>  
                   <li>True Continuous Integration and Continuous Delivery is impossible with snowflake servers.  Consider the promotion and deployment pipeline; development teams running a blu/green deploy/destroy process couldn’t function.</li>
                   <li>Snowflake servers are notoriously difficult to reproduce especially when there is a critical issue in progress.  When supporting a critical issue it is vital to get infrastructure up quickly to support the existing functions of the  product.  The best response for critical hardware issues is to spin up a new instance of the product estate and fail over tearing down the old corrupted virtual machines.</li>
                   <li>Promoting software from the Developer environment through to Production on snowflake servers reveals different issues in each environment that cannot be replicated regressively.</li>
                   <li>Day to day maintenance and updates quickly become an issue.</li>
                   </ul>            
-                </p>
-                <p class="heading__sub">
+                
+                <p>
                 Gaining immutability at enterprise level requires the coordination of a number of disparate infrastructure and developer teams.  It is key that the Virtual Machines reflect what the developers need from both a .net and linux based programming perspective and have the flexibility to cover both front and back end product.  Infrastructure teams must define the perimeters of the build ensuring security and domain / tier compatibility for server type (Web/ App / DB.) It is also important to ensure that a roadmap is in place and ways of working with the new immutable builds are understood by both development and infrastructure teams.
                 </p>
-                <p class="heading__sub">
+                <p>
                 How do we move forwards?
                 </p>
-                <p class="heading__sub">
+                
                   <ul>  
                   <li>Start with standard operating systems (e.g. Windows 2016 / RedHat Linux 7)</li>
                   <li>Agree the patch level of the OS.</li>
                   <li>Consider AD integrating and Domain joining the VM.</li>
                   <li>Consider which foundation apps / subsidiary software is required.</li>
                   </ul>            
-                </p>
-                <p class="heading__sub">
+                
+                <p>
                 What tools might we need?
                 </p>
-                <p class="heading__sub">
+                
                 Dependant on the hypervisor choice there are a number of options:
                   <ul>  
                   <li>VMWare allows the cloning of VM templates giving the infrastructure team the ability to apply host name, MAC address, IP address, domain join and AD integrate the machine. Post build tasks can then apply foundation apps and software.</li>
                   <li>Chef can be used with most hypervisor types to facilitate the immutable build deployable across all domains.  Recipes can be created for server types and then deployed across all domains.</li>
                   <li>CloudJet’s self service portal allows developers to deploy virtual machines across the hypervisor types and cloud services used by the business, placing machines in the best location based on space, cost or availability.  The portal also gives infrastructure teams real time utilisation and capacity data.</li>
                   </ul>            
-                </p>
+                
                 <a href="mailto:info@cloudjet.co.uk" class="btn btn-default heading__btn">Contact</a>
               </div>
               <div class="col-sm-7 col-sm-height col-middle">
