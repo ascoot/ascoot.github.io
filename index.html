@@ -1,465 +1,527 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="Brindging the gap between OnPrem and Cloud Infrastructure. Making the most of your current and future infrastructure investments." />
-	<meta name="Keywords" content="cloud,infrastructure,VM,Virtual Machine,AWS,VMWare,Xen,Azure,deployment,devops,CICD,IAAS,PAAS" />
-    <link rel="icon" href="ico/CJfavicon.png">
 
-    <title>CloudJet</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Description" content="Brindging the gap between OnPrem and Cloud Infrastructure. Making the most of your current and future infrastructure investments."
+  />
+  <meta name="Keywords" content="cloud,infrastructure,VM,Virtual Machine,AWS,VMWare,Xen,Azure,deployment,devops,CICD,IAAS,PAAS"
+  />
+  <link rel="icon" href="ico/CJfavicon.png">
 
-    <!-- CSS Plugins -->
-    <link href="css/plugins/animate.css" rel="stylesheet">
-    <link href="css/plugins/owl.carousel.css" rel="stylesheet">
-    <link href="css/plugins/lightbox.css" rel="stylesheet">
-    <link href="fonts/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <title>CloudJet</title>
 
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+  <!-- CSS Plugins -->
+  <link href="css/plugins/animate.css" rel="stylesheet">
+  <link href="css/plugins/owl.carousel.css" rel="stylesheet">
+  <link href="css/plugins/lightbox.css" rel="stylesheet">
+  <link href="fonts/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+  <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- CSS Custom -->
-    <link href="css/styles.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+  <!-- CSS Custom -->
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="71">
+<body data-spy="scroll" data-target=".navbar" data-offset="71">
 
- <!-- SIDEBAR
+  <!-- SIDEBAR
  -    ============================== -->
-    <div class="sidebar">
-      <div class="sidebar__wrapper">
- 
-         <div class="sidebar__close js-toggle-sidebar visible-xs">
-          <span class="oi oi-x"></span>
-         </div>    
- 
-         <h4 class="sidebar__heading">
-           Learn More
-         </h4>
-         <ul class="sidebar__menu">
-           <li><a href="http://www.cloudjet.co.uk/detailpage#Pathways">Define Pathways To The Cloud</a></li>
-           <li><a href="http://www.cloudjet.co.uk/detailpage#Existing">Understand Utilisation of Your Existing Estate</a></li>
-           <li><a href="http://www.cloudjet.co.uk/detailpage#Integrate">Integrate Cloud With Internal Services</a></li>
-	   <li><a href="http://www.cloudjet.co.uk/detailpage#Strategic">Strategic Deployment Across Cloud And Internal</a></li>
-	   <li><a href="http://www.cloudjet.co.uk/detailpage#Templating">Templating / Imutable Builds</a></li>
-         </ul>
- 
-        <h4 class="sidebar__heading">
-           Example Dashboard
-         </h4>
-         <ul class="sidebar__menu">
-           <li><a href="http://cloudjet.azurewebsites.net/#/pages/dashboard">Dashboard</a></li>
-         </ul>
- 
-         <div class="sidebar__logo">
-           CloudJet
-         </div>
- 
-       </div>
-     </div>
+  <div class="sidebar">
+    <div class="sidebar__wrapper">
 
-    <!-- WRAPPER
+      <div class="sidebar__close js-toggle-sidebar visible-xs">
+        <span class="oi oi-x"></span>
+      </div>
+
+      <h4 class="sidebar__heading">
+        Learn More
+      </h4>
+      <ul class="sidebar__menu">
+        <li><a href="http://www.cloudjet.co.uk/detailpage#Pathways">Define Pathways To The Cloud</a></li>
+        <li><a href="http://www.cloudjet.co.uk/detailpage#Existing">Understand Utilisation of Your Existing Estate</a></li>
+        <li><a href="http://www.cloudjet.co.uk/detailpage#Integrate">Integrate Cloud With Internal Services</a></li>
+        <li><a href="http://www.cloudjet.co.uk/detailpage#Strategic">Strategic Deployment Across Cloud And Internal</a></li>
+        <li><a href="http://www.cloudjet.co.uk/detailpage#Templating">Templating / Imutable Builds</a></li>
+      </ul>
+
+      <h4 class="sidebar__heading">
+        Example Dashboard
+      </h4>
+      <ul class="sidebar__menu">
+        <li><a href="http://cloudjet.azurewebsites.net/#/pages/dashboard">Dashboard</a></li>
+      </ul>
+
+      <div class="sidebar__logo">
+        CloudJet
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WRAPPER
     ============================== -->
-    <div class="wrapper">
+  <div class="wrapper">
 
-      <!-- NAVBAR
+    <!-- NAVBAR
       ============================== -->
-      <nav class="navbar navbar-default navbar-fixed-top js-navbar-top js-toggleClass">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top js-navbar-top js-toggleClass">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#home">CloudJet</a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right ">
-              <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#pricing">About</a></li>
-              <li><a href="#about">Products</a></li>
-              <!--<li><a href="#portfolio">FIllmeIn</a></li>-->
-              <!--<li><a href="#team">Team</a></li>-->
-              <li><a href="#skills">Our Service</a></li>
-              <li><a href="#contact">Contact Us</a></li>
-              <li class="hidden-xs">
-                <p class="navbar-text navbar__separator"></p>
-              </li>
-              <li>
-                <a href="#" class="js-toggle-sidebar">
-                  <span class="oi oi-menu hidden-xs"></span>
-                  <span class="visible-xs">Bonus pages</span>
-                </a>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <a class="navbar-brand" href="#home">CloudJet</a>
         </div>
-      </nav>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right ">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#pricing">About</a></li>
+            <li><a href="#about">Products</a></li>
+            <!--<li><a href="#portfolio">FIllmeIn</a></li>-->
+            <!--<li><a href="#team">Team</a></li>-->
+            <li><a href="#skills">Our Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li class="hidden-xs">
+              <p class="navbar-text navbar__separator"></p>
+            </li>
+            <li>
+              <a href="#" class="js-toggle-sidebar">
+                <span class="oi oi-menu hidden-xs"></span>
+                <span class="visible-xs">Bonus pages</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
 
 
-      <!-- HERO
+    <!-- HERO
       ============================== -->
-      <div class="hero hero_agency" id="home">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
+    <div class="hero hero_agency" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
 
-              <!-- Hero heading -->
-              <h1 class="heading hero__heading animated fadeInUp">Cloud Enable Your Infrastructure</h1>
+            <!-- Hero heading -->
+            <h1 class="heading hero__heading animated fadeInUp">Cloud Enable Your Infrastructure</h1>
 
-              <!-- Hero subheading -->
-              <p class="heading__sub hero-heading__sub animated fadeInUp delay_1">
-                Bridging the gap between On-Prem and Cloud Infrastructure. Making the most of your current and future infrastructure investments.<br/>
-                  Avoid vendor lock in, get the best from automating existing infrastructure and cloud offerings, remain agile.<br/>
-                  CloudJet is a full service business offering agile project and program management, software development, team leadership and expertise, DevOps orientation and coaching.<br/>
-                  <br/>
-                  Have Questions Right Now? Get In Touch With Us <strong><a href="tel:07870217249">07870 217249</a> Weekdays 8AM - 6PM</strong>
-              or email us directly at <strong><a href="mailto:info@cloudjet.co.uk">info@cloudjet.co.uk</a></strong><br />
-              </p>
-              
-              <!-- Hero buttons
+            <!-- Hero subheading -->
+            <p class="heading__sub hero-heading__sub animated fadeInUp delay_1">
+              Bridging the gap between On-Prem and Cloud Infrastructure. Making the most of your current and future infrastructure investments.<br/>              Avoid vendor lock in, get the best from automating existing infrastructure and cloud offerings, remain agile.<br/>              CloudJet is a full service business offering agile project and program management, software development, team
+              leadership and expertise, DevOps orientation and coaching.<br/>
+              <br/> Have Questions Right Now? Get In Touch With Us <strong><a href="tel:07870217249">07870 217249</a> Weekdays 8AM - 6PM</strong>              or email us directly at <strong><a href="mailto:info@cloudjet.co.uk">info@cloudjet.co.uk</a></strong><br />
+            </p>
+
+            <!-- Hero buttons
               <a href="#" class="hero__btn btn btn-lg btn-primary animated fadeInUp delay_2">Primary action</a> 
               <a href="#about" class="hero__btn btn btn-lg btn-link animated fadeInUp delay_2">Find out more</a>
-              --> 
-              
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </div> <!-- / .hero -->
+              -->
+
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </div>
+    <!-- / .hero -->
 
     <!-- PRICING
       ============================== -->
-      <div class="section" id="pricing">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h4 class="heading">Enabling Your Path To Cloud Infrastructure</h4>
-              <p class="heading__sub">
-                Making the most of your on-premise infrastructure investments while enabling the benefits of cloud services and integration.
-              </p>
-            </div>
-          </div> <!-- / .row -->
-          <div class="row">
-            <div class="pricing__items">
-              <div class="col-sm-3">
-                <div class="pricing__item pricing__item_one">
-                  <div class="pricing-item__title">
-                    Define Pathways To The Cloud 
-                  </div>
-                  <div class="pricing-item__price">
-                    ooooooooooo
-                  </div>
-                  <div class="pricing-item__summary">
-                    If you have never touched cloud, or are already progressing a cloud solution we can assess your internal capability both from an infrastructure and resource perspective, provide recommendations on choice of cloud provider, while also running the projects which provide this business value. CloudJet products will allow you to define your automated machine solution ‘in house’ via a self serve portal and then deploy it to  any target (AWS / Azure or In house Xen / VMWare.) across multiple environments to avoid vendor lock in.
-                  </div>
-                  <a href="http://www.cloudjet.co.uk/detailpage#Pathways" class="btn btn-default">
-                    <!--<span class="oi oi-cart"></span>--> Learn More
-                  </a>
-                </div> <!-- / .pricing__items -->
-              </div>
-              <div class="col-sm-3">
-                <div class="pricing__item pricing__item_two">
-                  <div class="pricing-item__title">
-                    Understand Utilisation Of Your Existing Estate.
-                  </div>
-                  <div class="pricing-item__price">
-                    ooooooooooo
-                  </div>
-                  <div class="pricing-item__summary">
-                    Regardless of whether you employ Xen, VmWare or another virtualisation platform we can combine monitoring to provide hypervisor agnostic utilisation data. Utilise On-Prem private cloud and Off-Prem cloud services together to be cost effective.
-                  </div>
-                  <a href="http://www.cloudjet.co.uk/detailpage#Existing" class="btn btn-default">
-                    <!--<span class="oi oi-cart"></span>--> Learn More
-                  </a>
-                </div> <!-- / .pricing__items -->
-              </div>
-              <div class="col-sm-3">
-                <div class="pricing__item pricing__item_three">
-                  <div class="pricing-item__title">
-                    Integrate Cloud With Internal Services
-                  </div>
-                  <div class="pricing-item__price">
-                    ooooooooooo
-                  </div>
-                  <div class="pricing-item__summary">
-                    AD security for AWS, linking external cloud features with internal services such as AD, automation of AWS/Azure site and service setup from a user portal. Deliver Infrastructure as a Service (IaaS) and utilise the CloudJet Platform.
-                  </div>
-                  <a href="http://www.cloudjet.co.uk/detailpage#Integrate" class="btn btn-default">
-                    <!--<span class="oi oi-cart"></span>--> Learn More
-                  </a>
-                </div> <!-- / .pricing__items -->
-              </div>
-              <div class="col-sm-3">
-                <div class="pricing__item pricing__item_four">
-                  <div class="pricing-item__title">
-                    Strategic Deployment Across Cloud And Internal
-                  </div>
-                  <div class="pricing-item__price">
-                   ooooooooooo
-                  </div>
-                  <div class="pricing-item__summary">
-                    Allow dev teams and infra to deploy to both internal Hard Ware and Cloud Service; Abstract the details of the VM to simplify the process; Offer a variety of server types and OS to chose from. Use CloudJet's APIs to integrate with CICD services both internally and externally to optimise utilisation and cost and cost efficency.
-                  </div>
-                  <a href="http://www.cloudjet.co.uk/detailpage#Strategic" class="btn btn-default">
-                    <!--<span class="oi oi-cart"></span>--> Learn More
-                  </a>
-                </div> <!-- / .pricing__items -->
-              </div>
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-
-      </div> <!-- / .section -->
-
-
-      <div class="section" id="about">
-
-        <!-- ABOUT
-        ============================== -->
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h4 class="heading">Products</h4>
-              <p class="heading__sub">
-                CloudJet Products are designed to resolve the challenges of enterprise cloud automation.  Use them individually or combine them together to create the best solution for you. <br />
-              </p>
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-
-
-        <!-- FEATURES
-        ============================== -->
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="features__item wow fadeIn">
-                <div class="features-item__icon">
-                  <span class="oi oi-project"></span>
-                </div>
-                <div class="features-item__body">
-                  <div class="features-item-body__title">
-                    HYPERVISORS AND TECHNOLOGY
-                  </div>
-                  <div class="features-item-body__summary">
-                    With a focus on Xen and VMWare we can also cover a hypervisor type of your choice. We will tailor our solution to your existing technology stack.
-                  </div>
-                </div> <!-- / .features-item__body -->
-              </div> <!-- / .features__item -->
-            </div>
-            <div class="col-sm-4">
-              <div class="features__item wow fadeIn">
-                <div class="features-item__icon">
-                  <span class="oi oi-code"></span>
-                </div>
-                <div class="features-item__body">
-                  <div class="features-item-body__title">
-                    DIRECTORY SERVICES AUTOMATION
-                  </div>
-                  <div class="features-item-body__summary">
-                    Automate the provisioning of users, groups, permissions and policies.
-                  </div>
-                </div> <!-- / .features-item__body -->
-              </div> <!-- / .features__item -->
-            </div>
-            <div class="col-sm-4">
-              <div class="features__item wow fadeIn">
-                <div class="features-item__icon">
-                  <span class="oi oi-envelope-open"></span>
-                </div>
-                <div class="features-item__body">
-                  <div class="features-item-body__title">
-                    RESOURCE SCANNER
-                  </div>
-                  <div class="features-item-body__summary">
-                    Scan your entire virtualisation investment with a hypervisor agnostic service that perpetually collects metrics such as RAM, CPU and storage utilisation. Seamlessly introduce new capacity, automatically open and close resource pools and more.
-                  </div>
-                </div>  <!-- / .features-item__body -->
-              </div> <!-- / .features__item -->
-            </div>
-            <div class="col-sm-4">
-              <div class="features__item wow fadeIn">
-                <div class="features-item__icon">
-                  <span class="oi oi-cart"></span>
-                </div>
-                <div class="features-item__body">
-                  <div class="features-item-body__title">
-                    TIN SCANNER 
-                  </div>
-                  <div class="features-item-body__summary">
-                    Gain visibility from the ground up, allowing you to understand the hardware on which your estate runs. In one location understand the OS, version, patch ref, availability, used storage, last use and power status of all your machines.
-                  </div>
-                </div> <!-- / .features-item__body -->
-              </div> <!-- / .features__item -->
-            </div>
-            <div class="col-sm-4">
-              <div class="features__item wow fadeIn">
-                <div class="features-item__icon">
-                  <span class="oi oi-chat"></span>
-                </div>
-                <div class="features-item__body">
-                  <div class="features-item-body__title">
-                    INTELLIGENT RESOURCE PLACEMENT
-                  </div>
-                  <div class="features-item-body__summary">
-                    Allocate compute resource based on strategies that matter to you. Favour redundancy? deploy a particular service across many nodes. Favour cost savings? deploy to the cheapest hardware. Create your own custom policies that can be applied globally or to specific environments or platforms. Combine with the Resource Scanner for placement. 
-                  </div>
-                </div> <!-- / .features-item__body -->
-              </div> <!-- / .features__item -->
-            </div>
-            <div class="col-sm-4">
-              <div class="features__item wow fadeIn">
-                <div class="features-item__icon">
-                  <span class="oi oi-graph"></span>
-                </div>
-                <div class="features-item__body">
-                  <div class="features-item-body__title">
-                    UNDERSTAND THE COSTS
-                  </div>
-                  <div class="features-item-body__summary">
-                    Apply costs to your On-Prem infrastructure and track those of your Cloud investments. Gain reporting at a high and low level to understand cost per team, service, hypervisor and more. Discover unused and under utilised resources and put them to better use. Combine with the Resource Scanner / Tin Scanner to see where Teams are over provisioning resource and tighten up your Deploy/Destroy cycle.
-                  </div>
-                </div>  <!-- / .features-item__body -->
-              </div> <!-- / .features__item -->
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-
-      </div> <!-- / .section -->
-
-      <div class="section">
-        <div class="container">
-          <div class="row"> 
-            <div class="row-same-height">
-              <div class="col-sm-5 col-sm-height col-middle">
-                <h4 class="heading heading_left">TEMPLATING/IMMUTABLE BUILDS</h4>
-                <p class="heading__sub">
-                  Use templating to get build consistency across your estate, and utilise tools like chef to gain immutability.
-                </p>
-                <a href="http://www.cloudjet.co.uk/detailpage#Templating" class="btn btn-default heading__btn">Learn More</a>
-              </div>
-              <div class="col-sm-7 col-sm-height col-middle">
-                <img src="img/backgrounds/CodeScreen.png" alt="..." class="img-responsive">
-              </div> 
-            </div> <!-- / .row-same-height -->
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </div> <!-- / .section -->
-
-
-      <!-- DOWNLOAD
-      ============================== -->
-      <div class="section section_alt section_download" id="download">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-              <h4 class="heading">Start getting the most from your infrastructure automation</h4>
-              <p class="heading__sub">
-                Contact us for more information on how CloudJet can make the most of your existing infrastructure offering and utilise Cloud providers without vendor lock in.
-              </p>
-              <a href="mailto:info@cloudjet.co.uk" class="btn btn-lg btn-primary heading__btn wow fadeInUp">Email us</a>
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </div> <!-- / .section -->
-
-      <!-- SKILLS
-      ============================== -->
-      <div class="section" id="skills">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h4 class="heading">CloudJet provides...</h4>
-              <p class="heading__sub">
-                Getting new products and ideas to your audience is vital for sustainable revenue and growth. Understanding your estate and providing the immutable build templates across your hypervisor platforms is key to providing quality infrastructure to your development teams.
-                <br />
-                <br />
-                Discover your best route to cloud infrastructure and make the most of your current and and future investments. Take advantage of a MicroService based products that work together to provide the solution you need.
-              </p>
-            </div>
-          </div> <!-- / .row -->
-          <div class="row">
-
-            <div class="col-xs-6 col-sm-3 col-md-2 col-md-offset-2">
-              <div class="skills__item js-skills__item_first">
-                <div class="skills-item__title">Agile Delivery</div>
-                <span class="skills-item__donut"  data-peity='{ "fill": ["#C06C84", "#EEE"] }'>06/12</span>
-              </div>
-              <p><strong>FOCUSED DEVELOPMENT</strong> <br />
-                Agile practices and continual deployment gets your solution faster</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-3 col-md-2">
-              <div class="skills__item">
-                <div class="skills-item__title">Development</div>
-                <span class="skills-item__donut" data-peity='{ "fill": ["#C06C84", "#EEE"] }'>06/12</span>
-              </div>
-              <p><strong>EXPERIENCED</strong> <br />
-                We have worked with Enterprise level clients to define and deliver Cloud Infrastructure solutions. We will work with you to define the best solution</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-3 col-md-2">
-              <div class="skills__item">
-                <div class="skills-item__title">Key Resource</div>
-                <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>06/12</span>
-              </div>
-              <p><strong>Team Delivery</strong> <br />
-                We can bring in expertise whilst working with your key permanent team</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-3 col-md-2">
-              <div class="skills__item">
-                <div class="skills-item__title">Product</div>
-                <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>06/12</span>
-              </div>
-              <p><strong>On Demand</strong> <br />
-                Empower development teams with quality virtual infrastructure when they need it</p>
-            </div>
-
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </div> <!-- / .section -->
-
-
-
-      <!-- CONTACT US
-      ============================== -->
-      <div class="container" id="contact">
-
+    <div class="section" id="pricing">
+      <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <h4 class="heading">Feel free to contact us</h4>
+            <h4 class="heading">Enabling Your Path To Cloud Infrastructure</h4>
             <p class="heading__sub">
-              For questions or enquiries call Adam on: 
-              <strong><a href="tel:07870217249">07870 217249</a> WEEKDAYS 8AM - 6PM</strong>
-              or email us directly at <strong><a href="mailto:info@cloudjet.co.uk">info@cloudjet.co.uk</a></strong>
+              Making the most of your on-premise infrastructure investments while enabling the benefits of cloud services and integration.
             </p>
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-
-
-      <!-- FOOTER
-      ============================== -->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              &copy; 2017 CloudJet All Rights Reserved.
+        </div>
+        <!-- / .row -->
+        <div class="row">
+          <div class="pricing__items">
+            <div class="col-sm-3">
+              <div class="pricing__item pricing__item_one">
+                <div class="pricing-item__title">
+                  Define Pathways To The Cloud
+                </div>
+                <div class="pricing-item__price">
+                  ooooooooooo
+                </div>
+                <div class="pricing-item__summary">
+                  If you have never touched cloud, or are already progressing a cloud solution we can assess your internal capability both
+                  from an infrastructure and resource perspective, provide recommendations on choice of cloud provider, while
+                  also running the projects which provide this business value. CloudJet products will allow you to define
+                  your automated machine solution ‘in house’ via a self serve portal and then deploy it to  any target (AWS
+                  / Azure or In house Xen / VMWare.) across multiple environments to avoid vendor lock in.
+                </div>
+                <a href="http://www.cloudjet.co.uk/detailpage#Pathways" class="btn btn-default">
+                  <!--<span class="oi oi-cart"></span>-->Learn More
+                </a>
+              </div>
+              <!-- / .pricing__items -->
             </div>
-            <div class="col-sm-6">
-              <!--<div class="footer__social">
+            <div class="col-sm-3">
+              <div class="pricing__item pricing__item_two">
+                <div class="pricing-item__title">
+                  Understand Utilisation Of Your Existing Estate.
+                </div>
+                <div class="pricing-item__price">
+                  ooooooooooo
+                </div>
+                <div class="pricing-item__summary">
+                  Regardless of whether you employ Xen, VmWare or another virtualisation platform we can combine monitoring to provide hypervisor
+                  agnostic utilisation data. Utilise On-Prem private cloud and Off-Prem cloud services together to be cost
+                  effective.
+                </div>
+                <a href="http://www.cloudjet.co.uk/detailpage#Existing" class="btn btn-default">
+                  <!--<span class="oi oi-cart"></span>-->Learn More
+                </a>
+              </div>
+              <!-- / .pricing__items -->
+            </div>
+            <div class="col-sm-3">
+              <div class="pricing__item pricing__item_three">
+                <div class="pricing-item__title">
+                  Integrate Cloud With Internal Services
+                </div>
+                <div class="pricing-item__price">
+                  ooooooooooo
+                </div>
+                <div class="pricing-item__summary">
+                  AD security for AWS, linking external cloud features with internal services such as AD, automation of AWS/Azure site and
+                  service setup from a user portal. Deliver Infrastructure as a Service (IaaS) and utilise the CloudJet Platform.
+                </div>
+                <a href="http://www.cloudjet.co.uk/detailpage#Integrate" class="btn btn-default">
+                  <!--<span class="oi oi-cart"></span>-->Learn More
+                </a>
+              </div>
+              <!-- / .pricing__items -->
+            </div>
+            <div class="col-sm-3">
+              <div class="pricing__item pricing__item_four">
+                <div class="pricing-item__title">
+                  Strategic Deployment Across Cloud And Internal
+                </div>
+                <div class="pricing-item__price">
+                  ooooooooooo
+                </div>
+                <div class="pricing-item__summary">
+                  Allow dev teams and infra to deploy to both internal Hard Ware and Cloud Service; Abstract the details of the VM to simplify
+                  the process; Offer a variety of server types and OS to chose from. Use CloudJet's APIs to integrate with
+                  CICD services both internally and externally to optimise utilisation and cost and cost efficency.
+                </div>
+                <a href="http://www.cloudjet.co.uk/detailpage#Strategic" class="btn btn-default">
+                  <!--<span class="oi oi-cart"></span>-->Learn More
+                </a>
+              </div>
+              <!-- / .pricing__items -->
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+
+    </div>
+    <!-- / .section -->
+
+
+    <div class="section" id="about">
+
+      <!-- ABOUT
+        ============================== -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h4 class="heading">Products</h4>
+            <p class="heading__sub">
+              CloudJet Products are designed to resolve the challenges of enterprise cloud automation. Use them individually or combine
+              them together to create the best solution for you. <br />
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+
+
+      <!-- FEATURES
+        ============================== -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="features__item wow fadeIn">
+              <div class="features-item__icon">
+                <span class="oi oi-project"></span>
+              </div>
+              <div class="features-item__body">
+                <div class="features-item-body__title">
+                  HYPERVISORS AND TECHNOLOGY
+                </div>
+                <div class="features-item-body__summary">
+                  With a focus on Xen and VMWare we can also cover a hypervisor type of your choice. We will tailor our solution to your existing
+                  technology stack.
+                </div>
+              </div>
+              <!-- / .features-item__body -->
+            </div>
+            <!-- / .features__item -->
+          </div>
+          <div class="col-sm-4">
+            <div class="features__item wow fadeIn">
+              <div class="features-item__icon">
+                <span class="oi oi-code"></span>
+              </div>
+              <div class="features-item__body">
+                <div class="features-item-body__title">
+                  DIRECTORY SERVICES AUTOMATION
+                </div>
+                <div class="features-item-body__summary">
+                  Automate the provisioning of users, groups, permissions and policies.
+                </div>
+              </div>
+              <!-- / .features-item__body -->
+            </div>
+            <!-- / .features__item -->
+          </div>
+          <div class="col-sm-4">
+            <div class="features__item wow fadeIn">
+              <div class="features-item__icon">
+                <span class="oi oi-envelope-open"></span>
+              </div>
+              <div class="features-item__body">
+                <div class="features-item-body__title">
+                  RESOURCE SCANNER
+                </div>
+                <div class="features-item-body__summary">
+                  Scan your entire virtualisation investment with a hypervisor agnostic service that perpetually collects metrics such as RAM,
+                  CPU and storage utilisation. Seamlessly introduce new capacity, automatically open and close resource pools
+                  and more.
+                </div>
+              </div>
+              <!-- / .features-item__body -->
+            </div>
+            <!-- / .features__item -->
+          </div>
+          <div class="col-sm-4">
+            <div class="features__item wow fadeIn">
+              <div class="features-item__icon">
+                <span class="oi oi-cart"></span>
+              </div>
+              <div class="features-item__body">
+                <div class="features-item-body__title">
+                  TIN SCANNER
+                </div>
+                <div class="features-item-body__summary">
+                  Gain visibility from the ground up, allowing you to understand the hardware on which your estate runs. In one location understand
+                  the OS, version, patch ref, availability, used storage, last use and power status of all your machines.
+                </div>
+              </div>
+              <!-- / .features-item__body -->
+            </div>
+            <!-- / .features__item -->
+          </div>
+          <div class="col-sm-4">
+            <div class="features__item wow fadeIn">
+              <div class="features-item__icon">
+                <span class="oi oi-chat"></span>
+              </div>
+              <div class="features-item__body">
+                <div class="features-item-body__title">
+                  INTELLIGENT RESOURCE PLACEMENT
+                </div>
+                <div class="features-item-body__summary">
+                  Allocate compute resource based on strategies that matter to you. Favour redundancy? deploy a particular service across many
+                  nodes. Favour cost savings? deploy to the cheapest hardware. Create your own custom policies that can be
+                  applied globally or to specific environments or platforms. Combine with the Resource Scanner for placement.
+                </div>
+              </div>
+              <!-- / .features-item__body -->
+            </div>
+            <!-- / .features__item -->
+          </div>
+          <div class="col-sm-4">
+            <div class="features__item wow fadeIn">
+              <div class="features-item__icon">
+                <span class="oi oi-graph"></span>
+              </div>
+              <div class="features-item__body">
+                <div class="features-item-body__title">
+                  UNDERSTAND THE COSTS
+                </div>
+                <div class="features-item-body__summary">
+                  Apply costs to your On-Prem infrastructure and track those of your Cloud investments. Gain reporting at a high and low level
+                  to understand cost per team, service, hypervisor and more. Discover unused and under utilised resources
+                  and put them to better use. Combine with the Resource Scanner / Tin Scanner to see where Teams are over
+                  provisioning resource and tighten up your Deploy/Destroy cycle.
+                </div>
+              </div>
+              <!-- / .features-item__body -->
+            </div>
+            <!-- / .features__item -->
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+
+    </div>
+    <!-- / .section -->
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="row-same-height">
+            <div class="col-sm-5 col-sm-height col-middle">
+              <h4 class="heading heading_left">TEMPLATING/IMMUTABLE BUILDS</h4>
+              <p class="heading__sub">
+                Use templating to get build consistency across your estate, and utilise tools like chef to gain immutability.
+              </p>
+              <a href="http://www.cloudjet.co.uk/detailpage#Templating" class="btn btn-default heading__btn">Learn More</a>
+            </div>
+            <div class="col-sm-7 col-sm-height col-middle">
+              <img src="img/backgrounds/CodeScreen.png" alt="..." class="img-responsive">
+            </div>
+          </div>
+          <!-- / .row-same-height -->
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </div>
+    <!-- / .section -->
+
+
+    <!-- DOWNLOAD
+      ============================== -->
+    <div class="section section_alt section_download" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <h4 class="heading">Start getting the most from your infrastructure automation</h4>
+            <p class="heading__sub">
+              Contact us for more information on how CloudJet can make the most of your existing infrastructure offering and utilise Cloud
+              providers without vendor lock in.
+            </p>
+            <a href="mailto:info@cloudjet.co.uk" class="btn btn-lg btn-primary heading__btn wow fadeInUp">Email us</a>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </div>
+    <!-- / .section -->
+
+    <!-- SKILLS
+      ============================== -->
+    <div class="section" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h4 class="heading">CloudJet provides...</h4>
+            <p class="heading__sub">
+              Getting new products and ideas to your audience is vital for sustainable revenue and growth. Understanding your estate and
+              providing the immutable build templates across your hypervisor platforms is key to providing quality infrastructure
+              to your development teams.
+              <br />
+              <br /> Discover your best route to cloud infrastructure and make the most of your current and and future investments.
+              Take advantage of a MicroService based products that work together to provide the solution you need.
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+        <div class="row">
+
+          <div class="col-xs-6 col-sm-3 col-md-2 col-md-offset-2">
+            <div class="skills__item js-skills__item_first">
+              <div class="skills-item__title">Agile Delivery</div>
+              <span class="skills-item__donut" data-peity='{ "fill": ["#C06C84", "#EEE"] }'>06/12</span>
+            </div>
+            <p><strong>FOCUSED DEVELOPMENT</strong> <br /> Agile practices and continual deployment gets your solution faster</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="skills__item">
+              <div class="skills-item__title">Development</div>
+              <span class="skills-item__donut" data-peity='{ "fill": ["#C06C84", "#EEE"] }'>06/12</span>
+            </div>
+            <p><strong>EXPERIENCED</strong> <br /> We have worked with Enterprise level clients to define and deliver Cloud
+              Infrastructure solutions. We will work with you to define the best solution</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="skills__item">
+              <div class="skills-item__title">Key Resource</div>
+              <span class="skills-item__donut" data-peity='{ "fill": ["#6C5B7B", "#EEE"] }'>06/12</span>
+            </div>
+            <p><strong>Team Delivery</strong> <br /> We can bring in expertise whilst working with your key permanent team</p>
+          </div>
+
+          <div class="col-xs-6 col-sm-3 col-md-2">
+            <div class="skills__item">
+              <div class="skills-item__title">Product</div>
+              <span class="skills-item__donut" data-peity='{ "fill": ["#355C7D", "#EEE"] }'>06/12</span>
+            </div>
+            <p><strong>On Demand</strong> <br /> Empower development teams with quality virtual infrastructure when they need
+              it</p>
+          </div>
+
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </div>
+    <!-- / .section -->
+
+
+
+    <!-- CONTACT US
+      ============================== -->
+    <div class="container" id="contact">
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h4 class="heading">Feel free to contact us</h4>
+          <p class="heading__sub">
+            For questions or enquiries call Adam on:
+            <strong><a href="tel:07870217249">07870 217249</a> WEEKDAYS 8AM - 6PM</strong> or email us directly at <strong><a href="mailto:info@cloudjet.co.uk">info@cloudjet.co.uk</a></strong>
+          </p>
+        </div>
+      </div>
+      <!-- / .row -->
+    </div>
+    <!-- / .container -->
+
+
+    <!-- FOOTER
+      ============================== -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            &copy; 2017 CloudJet All Rights Reserved.
+          </div>
+          <div class="col-sm-6">
+            <!--<div class="footer__social">
                 <a href="#" class="footer-social__link footer-social__link_twitter">
                   <i class="fa fa-twitter"></i>
                 </a>
@@ -471,34 +533,47 @@
                 </a>
 
               </div>-->
-            </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-    </div> <!-- / .wrapper -->
+  </div>
+  <!-- / .wrapper -->
 
 
-    <!-- JavaScript
+  <!-- JavaScript
     ================================================== -->
-    
-    <!-- JS Global -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-    <!-- JS Plugins -->
-    <script src="js/plugins/smoothscroll.js"></script>
-    <script src="js/plugins/jquery.waypoints.min.js"></script>
-    <script src="js/plugins/wow.min.js"></script>
-    <script src="js/plugins/owl.carousel.min.js"></script>
-    <script src="js/plugins/jquery.peity.min.js"></script>
-    <script src="js/plugins/lightbox.min.js"></script>
-    <script src="js/plugins/contact.js"></script>
+    ga('create', 'UA-94086426-1', 'auto');
+    ga('send', 'pageview');
 
-    <!-- JS Custom -->
-    <script src="js/custom.js"></script>
+  </script>
+  <!-- JS Global -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Plugins -->
+  <script src="js/plugins/smoothscroll.js"></script>
+  <script src="js/plugins/jquery.waypoints.min.js"></script>
+  <script src="js/plugins/wow.min.js"></script>
+  <script src="js/plugins/owl.carousel.min.js"></script>
+  <script src="js/plugins/jquery.peity.min.js"></script>
+  <script src="js/plugins/lightbox.min.js"></script>
+  <script src="js/plugins/contact.js"></script>
+
+  <!-- JS Custom -->
+  <script src="js/custom.js"></script>
 
 
-  </body>
+</body>
+
 </html>
