@@ -7574,6 +7574,14 @@ body {
 .team-item-contact__link_linkedin:focus {
   background: #3b5998;
 }
+.team-item-contact__link_hand-paper {
+  border-left: 1px solid white;
+  border-radius: 0 3px 3px 0;
+}
+.team-item-contact__link_hand-paper:hover,
+.team-item-contact__link_hand-paper:focus {
+  background: #3b5998;
+}
 .team-item__name {
   font-weight: 700;
 }
