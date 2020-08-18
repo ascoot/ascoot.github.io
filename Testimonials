@@ -1,0 +1,224 @@
+  <!-- TESTIMONIALS
+      ============================== -->
+ 
+ <div class="section" id="testimonials">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="review__icon">
+                <span class="oi oi-double-quote-serif-left"></span>
+              </div>
+              <h4 class="heading">What others say about us</h4>
+            </div>
+          </div> <!-- / .row -->
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+
+              <!-- Wrapper for slides -->
+              <div id="review__carousel" class="owl-carousel owl-theme">
+
+               <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Adam is a professional agile practitioner who has provided great support to myself and the team over the last 18 months. He has embraced the values of the organisation to help teams identify opportunity to embed agile ways of working to deliver value to our customers. He demonstrates, patience, determination and resilience to adapt to the changing needs of the business. Adam has been a valuable member of the team and has provided great coaching interventions to build capability of our teams and lead them through our transformation. He has been a pleasure to work work and I wish him well for the future.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/LynseySheppard.jpg" alt="Lynsey Sheppard">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Lynsey Sheppard</div>
+                        <div class="review-item-about__position">RBS - Agile Capability Lead</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>  <!-- / .review__item --> 
+                </div> 
+                
+              <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Adam has provided me amazing 121 support during my journey into becoming a coach. Specifically looking at how I build relationships.  He also had great approach in helping teams with how they start their work, from visualising and prioritising through to building  Has helped leaders within business areas become aware of the impediments that their teams face into and helped them in looking how to remove/reduce these  Have enjoyed my time working with Adam and highly recommend him
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/MatJohncock.jpg" alt="Mat Johncock">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Mat Johncock</div>
+                        <div class="review-item-about__position">RBS - Agile Coach</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>  <!-- / .review__item --> 
+                </div>
+                
+                <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      I worked with Helen during the transformation of a programme from Waterfall, to Agile working practices, within a distributed team. Helen’s ability to see the bigger picture working at Programme level one minute, and be down in the detail, guiding specific behaviours one-to-one the next, proved her resilient and flexible (Agile) mindset to be an asset to this team, as it would be to any team. It was a pleasure working with Helen, and I’d actively welcome the opportunity to work alongside her again in the future.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/CliffWright.jpg" alt="Cliff Wright">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Cliff Wright</div>
+                        <div class="review-item-about__position">Sainsburys - Program Test Consultant</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div> <!-- / .review__item -->
+                </div>
+                
+                <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Paul is great at bringing a positive attitude and a wealth of experience which he is keen to share and help us along our Agile journey.  He can relate to team members at all levels and coach us in Agile methods while relating back to previous experience, rather than everything being theoretical.  He is also very forthcoming with praise, which really helps and encourages team learning.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/AdrienCoquelin.jpg" alt="Adrien Coquelin">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Adrien Coquelin</div>
+                        <div class="review-item-about__position">RBS - Experience Manager</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div> <!-- / .review__item -->
+                </div>
+                
+                <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Helen is a truly inspiring coach. She has worked with our leadership team to understand the environment and encourage changes that are sustainable and really make a difference. In a short time she won the trust of the team and made a lasting impression.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/HayleySotheranOLY.jpg" alt="Hayley Sotheran OLY">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Hayley Sotheran OLY</div>
+                        <div class="review-item-about__position">HSBC - Head of Operational Management</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div> <!-- / .review__item -->
+                </div>
+
+                <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                    Paul is very much hands on coach who gets involved in the team from the off. This really helps with building trusting relationships across teams and leaders. With his natural ability to coach, teach and mentor he has been able to pass on great skills that have allowed me to progress my career based on his guidance. Paul’s approach is open, honest and based on fact.  Having Paul available for assistance in the creation and delivery of learning materials has also been of massive value, not just personally for me but for many teams he has worked alongside. Paul is a genuine person who is easy to speak to and made me feel comfortable sharing challenges and problems. I genuinely appreciate all his efforts and feel he helped me to get where I am now.                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/MatJohncock.jpg" alt="Mat Johncock">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Mat Johncock</div>
+                        <div class="review-item-about__position">RBS - Agile Coach</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>  <!-- / .review__item --> 
+                </div>
+                
+               <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Paul has tailored my own learning by educating me to practically apply theory, and to reflect on the “as is” in order to continuously improve – for customers and myself.  He has supported the teams learning and their Agile journey via group sessions and 1-2-1 coaching, bringing theory to life with live examples – this has had tremendous effects and has ensured that as a team we progress on a journey together.
+                      Paul is adaptable and approachable and responds to requests and feedback positively, allowing the teams to adapt to an agile approach that suits us all, and does not preach a one size fits all position. In addition, Paul challenged me personally, particularly my ways of thinking, allowing me to progress to a Product Owner role, and has helped me to realise that customer journey management is where I feel I want to be – I thank you for that.  Overall, working with Paul has been a pleasure – he has had a profound impact on me and the team, and I hope to work with him again in the future.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/ChristineKilpatrick.jpg" alt="Christine Kilpatrick">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">ChristineKilpatrick</div>
+                        <div class="review-item-about__position">RBS - Product Owner</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>  <!-- / .review__item -->
+                </div> 
+                
+                <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Adam has recently been an invaluable coach and mentor to me, providing training sessions and inviting me to actively participate in scrum ceremonies. He has an enthusiastic and friendly manner, backed up by a wealth of knowledge and experience in Agile delivery.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/IsobelNorton.jpg" alt="Isobel Norton">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Isobel Norton</div>
+                        <div class="review-item-about__position">Tesco - Enterprise Search Product Owner</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div> <!-- / .review__item -->
+                </div>
+
+               <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                    Paul excels at building good relationships with individuals, taking time to get to know them and understand their motivators and drivers.  He translates theory into practical application in the workplace.  Paul demonstrates credibility using knowledge of agile ways of working and providing examples of his experience and how we can embed capability into the teams he works with, and a real desire to help people to be the best they can be.  He is proactive by nature and is always looking for opportunities to help and improve the teams he works with. He lives the values and behaviours of the company he works for and role models the characteristics of a true change agent.                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/LynseySheppard.jpg" alt="Lynsey Sheppard">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Lynsey Sheppard</div>
+                        <div class="review-item-about__position">RBS - Agile Capability Lead</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>  <!-- / .review__item --> 
+                </div> 
+                
+                <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Belinda worked for us as a Business Analyst for 6 months on an internal software development programme. Belinda is very personable and engaged well with a fairly large and dispersed group of stakeholders. She often went beyond her role and acted as a coach for those in the business that where new to the process. Very diligent and adaptable, she was a huge asset to the team.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/JohnCampbell.jpg" alt="John Campbell">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">John Campbell</div>
+                        <div class="review-item-about__position">Aggreko - Head of New Product Introduction</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div> <!-- / .review__item -->
+                </div>
+
+               <div class="item">
+                  <div class="review__item">
+                    <div class="review-item__quot">
+                      Paul is a very knowledgeable Agile Coach and comes with a great deal of experience in the various ways of Agile working. He is particularly insightful when coaching around areas of difference between the frameworks available (e.g. Scrum vs Kanban etc) and their potential suitability for individual teams and organisations.
+                      Paul is very approachable and has a great sense of humour so is able to bring the Agile concepts to life for clients in an engaging and entertaining manner which can help to quickly build a sense of trust and psychological safety with a team. This also ensures team training sessions are fun as well as informative. His practical business skills and attention to detail mean Paul is also very helpful where coaching is needed to create informative and impactful impediment data visuals to senior stakeholders – for example to convey the impact or potential costs of delay to a wider audience to enable a decision to be reached on a way forward.
+                      Overall Paul is a great team player to have on board and a key asset in helping a business to implement an Agile style of working or further embed the principles and techniques with more mature teams.
+                    </div>
+                    <div class="review-item__about">
+                      <div class="review-item-about__avatar">
+                        <img class="img-responsive" src="img/LoriSimpson.jpg" alt="Lori Simpson">
+                      </div>
+                      <div class="review-item-about__content">
+                        <div class="review-item-about__name">Lori Simpson</div>
+                        <div class="review-item-about__position">NatWest Group - Scrum Master Multi Factor Authentication Team</div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>  <!-- / .review__item -->
+                </div> 
+
+              </div> <!-- / .review__carousel -->
+
+            </div>
+          </div> <!-- / .row -->
+        </div>
+      </div>
